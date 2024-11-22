@@ -14,7 +14,7 @@ const Navbar = () => {
             {/* Full navbar for larger screens */}
             <div className="bg-[#EBFEFF] hidden md:flex justify-between items-center mx-auto p-5 w-[65vw]">
                 <a href="/"><div className='text-[3vmin] font-semibold'>Rizfan</div></a>
-                <ul className="flex space-x-8 justify-center text-black md:text-[1vmin] lg:text-[3vmin]">
+                <ul className="flex space-x-8 justify-center text-black md:text-[1vmin] lg:text-[2.5vmin]">
                     <li><Link href="/" className="pr-6 pl-6 pt-2 pb-2  hover:bg-sky-900 hover:text-white rounded">Home</Link></li>
                     <li><Link href="#" className="pr-6 pl-6 pt-2 pb-2  hover:bg-sky-900 hover:text-white rounded">About</Link></li>
                     <li><Link href="#" className="pr-6 pl-6 pt-2 pb-2  hover:bg-sky-900 hover:text-white rounded">Skill</Link></li>

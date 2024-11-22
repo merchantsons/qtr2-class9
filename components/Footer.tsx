@@ -1,15 +1,16 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='pl-[10vmin] bg-[#EBFEFF] text-white font-poppins text-xs lg:p-[20vmin] w-screen'>
+    <div className='p-[4vmin] bg-[#EBFEFF] text-white font-poppins text-xs lg:pl-[40vmin] w-screen'>
       <div className='text-[#457B9D] text-[2vmin] font-semibold mb-[1vmin]'>Contacts</div>
       <div className='text-black font-bold text-4xl mb-[1vmin]'>Get in touch</div>
       <div className='text-black text-xs mb-[1vmin]'>rizfanher@gmail.com</div>
         <div className='flex w-[10vmin] justify-evenly mb-[8vmin]'>
-          <a href='#'><div className='w-[3vmin]'><img src='Linkedin.png' /></div></a>
-          <a href='#'><div className='w-[3vmin]'><img src='Github.png' /></div></a>
-          <a href='#'><div className='w-[3vmin]'><img src='Instagram.png' /></div></a>          
+          <a href='#'><div><Image src='/Linkedin.png' width={30} height={30} alt='Linkedin' /></div></a>
+          <a href='#'><div><Image src='/Github.png' width={30} height={30} alt='Github' /></div></a>
+          <a href='#'><div><Image src='/Instagram.png' width={30} height={30} alt='Instagram' /></div></a>          
         </div>
       <div className='text-xs text-black'>Copyright © 2023. Develop & Designed by Rizfan Herlaya</div>
       <div className='flex'>
