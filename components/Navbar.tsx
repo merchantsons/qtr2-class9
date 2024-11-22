@@ -34,7 +34,7 @@ const Navbar = () => {
 
             {/* Dropdown menu for small screens */}
             {isMenuOpen && (
-                <div className="fixed top-0 left-0 h-full w-[40vmin] bg-cyan-600 shadow-lg text-center">
+                <div className="fixed top-0 left-0 h-full w-[40vmin] bg-[#457B9D] shadow-lg text-center">
                     <div className="flex justify-end p-4">
                         <button onClick={toggleMenu} className="text-white border-4 border-cyan-900 p-2">
                             ✖
