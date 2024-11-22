@@ -8,8 +8,8 @@ const Footer = () => {
       <div className='text-black font-bold text-4xl mb-[1vmin]'>Get in touch</div>
       <div className='text-black text-xs mb-[1vmin]'>rizfanher@gmail.com</div>
         <div className='flex w-[10vmin] justify-evenly mb-[8vmin]'>
-          <a href='#'><div><Image src='/Linkedin.png' width={30} height={30} alt='Linkedin' /></div></a>
-          <a href='#'><div><Image src='/Github.png' width={30} height={30} alt='Github' /></div></a>
+          <a href='#'><div><Image src='/LinkedIn.png' width={30} height={30} alt='Linkedin' /></div></a>
+          <a href='#'><div><Image src='/GitHub.png' width={30} height={30} alt='Github' /></div></a>
           <a href='#'><div><Image src='/Instagram.png' width={30} height={30} alt='Instagram' /></div></a>          
         </div>
       <div className='text-xs text-black'>Copyright © 2023. Develop & Designed by Rizfan Herlaya</div>
